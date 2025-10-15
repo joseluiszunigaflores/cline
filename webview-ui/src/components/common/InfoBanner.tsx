@@ -19,11 +19,11 @@ export const InfoBanner: React.FC = () => {
 				style={{ color: "var(--vscode-foreground)", outline: "none" }}
 				target="_blank">
 				<h4 className="m-0" style={{ paddingRight: "18px" }}>
-					💡 Cline in the Right Sidebar
+					💡 Genius in the Right Sidebar
 				</h4>
 				<p className="m-0">
-					Keep your files visible when chatting with Cline. Drag the Cline icon to the right sidebar panel for a better
-					experience. <span className="text-link cursor-pointer">See how →</span>
+					Keep your files visible when chatting with Genius. Drag the Genius icon to the right sidebar panel for a
+					better experience. <span className="text-link cursor-pointer">See how →</span>
 				</p>
 
 				{/* Close button */}
