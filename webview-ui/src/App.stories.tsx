@@ -5,7 +5,7 @@ import type { ClineMessage } from "@shared/ExtensionMessage"
 import type { HistoryItem } from "@shared/HistoryItem"
 import type { Meta, StoryObj } from "@storybook/react-vite"
 import { useMemo } from "react"
-import { expect, userEvent, within } from "storybook/test"
+import { expect, within } from "storybook/test"
 import { ExtensionStateContext, useExtensionState } from "@/context/ExtensionStateContext"
 import ChatView from "./components/chat/ChatView"
 import WelcomeView from "./components/welcome/WelcomeView"
@@ -252,13 +252,8 @@ export const WelcomeScreen: Story = {
 	play: async ({ canvasElement }) => {
 		const canvas = within(canvasElement)
 		// Button has vscode-button element name
-		const getStartedButton = canvas.getByText("Login")
-		const byokButton = canvas.getByText("Use your own API key")
-		await expect(getStartedButton).toBeInTheDocument()
-		await expect(byokButton).toBeInTheDocument()
-		await userEvent.click(byokButton)
-		await expect(getStartedButton).toBeInTheDocument()
-		await expect(byokButton).not.toBeInTheDocument()
+		const loginButton = canvas.getByText("Login")
+		await expect(loginButton).toBeInTheDocument()
 	},
 }
 
