@@ -252,7 +252,7 @@ export const WelcomeScreen: Story = {
 	play: async ({ canvasElement }) => {
 		const canvas = within(canvasElement)
 		// Button has vscode-button element name
-		const getStartedButton = canvas.getByText("Get Started for Free")
+		const getStartedButton = canvas.getByText("Login")
 		const byokButton = canvas.getByText("Use your own API key")
 		await expect(getStartedButton).toBeInTheDocument()
 		await expect(byokButton).toBeInTheDocument()

@@ -55,7 +55,7 @@ const WelcomeView = memo(() => {
 				</p>
 
 				<VSCodeButton appearance="primary" className="w-full mt-1" onClick={handleLogin}>
-					Get Started for Free
+					Login
 				</VSCodeButton>
 
 				{!showApiOptions && (
