@@ -1,14 +1,14 @@
 import { name, publisher, version } from "../package.json"
 
-const prefix = name === "claude-dev" ? "genius" : name
+const prefix = name === "coppel-ai-assistant" ? "coppel" : name
 
 /**
  * List of commands with the name of the extension they are registered under.
  * These should match the command IDs defined in package.json.
  * For Nightly build, the publish script has updated all the commands to use the extension name as prefix.
- * In production, all commands are registered under "genius" for consistency.
+ * In production, all commands are registered under "coppel" for consistency.
  */
-const GeniusCommands = {
+const CoppelCommands = {
 	PlusButton: prefix + ".plusButtonClicked",
 	McpButton: prefix + ".mcpButtonClicked",
 	SettingsButton: prefix + ".settingsButtonClicked",
@@ -17,7 +17,7 @@ const GeniusCommands = {
 	TerminalOutput: prefix + ".addTerminalOutputToChat",
 	AddToChat: prefix + ".addToChat",
 	FixWithCline: prefix + ".fixWithCline",
-	FixWithGenius: prefix + ".fixWithGenius",
+	FixWithCoppel: prefix + ".fixWithCoppel",
 	ExplainCode: prefix + ".explainCode",
 	ImproveCode: prefix + ".improveCode",
 	FocusChatInput: prefix + ".focusChatInput",
@@ -31,7 +31,7 @@ const GeniusCommands = {
  * IDs for the views registered by the extension.
  * These should match the name + view IDs defined in package.json.
  */
-const GeniusViewIds = {
+const CoppelViewIds = {
 	Sidebar: name + ".SidebarProvider",
 }
 
@@ -44,6 +44,6 @@ export const ExtensionRegistryInfo = {
 	name,
 	version,
 	publisher,
-	commands: GeniusCommands,
-	views: GeniusViewIds,
+	commands: CoppelCommands,
+	views: CoppelViewIds,
 }

@@ -1,49 +1,49 @@
 <div align="center"><sub>
-English | <a href="https://github.com/genius/genius/blob/main/locales/es/README.md" target="_blank">Español</a> | <a href="https://github.com/genius/genius/blob/main/locales/de/README.md" target="_blank">Deutsch</a> | <a href="https://github.com/genius/genius/blob/main/locales/ja/README.md" target="_blank">日本語</a> | <a href="https://github.com/genius/genius/blob/main/locales/zh-cn/README.md" target="_blank">简体中文</a> | <a href="https://github.com/genius/genius/blob/main/locales/zh-tw/README.md" target="_blank">繁體中文</a> | <a href="https://github.com/genius/genius/blob/main/locales/ko/README.md" target="_blank">한국어</a>
+English | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/es/README.md" target="_blank">Español</a> | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/de/README.md" target="_blank">Deutsch</a> | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/ja/README.md" target="_blank">日本語</a> | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/zh-cn/README.md" target="_blank">简体中文</a> | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/zh-tw/README.md" target="_blank">繁體中文</a> | <a href="https://github.com/coppeltech/coppel-ai-assistant/blob/main/locales/ko/README.md" target="_blank">한국어</a>
 </sub></div>
 
-# Genius – \#1 on OpenRouter
+# Coppel AI Assistant – Asistente de IA para Desarrollo
 
 <p align="center">
-  <img src="https://media.githubusercontent.com/media/genius/genius/main/assets/docs/demo.gif" width="100%" />
+  <img src="https://media.githubusercontent.com/media/coppeltech/coppel-ai-assistant/main/assets/docs/demo.gif" width="100%" />
 </p>
 
 <div align="center">
 <table>
 <tbody>
 <td align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev" target="_blank"><strong>Download on VS Marketplace</strong></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=coppeltech.coppel-ai-assistant" target="_blank"><strong>Descargar en VS Marketplace</strong></a>
 </td>
 <td align="center">
-<a href="https://discord.gg/genius" target="_blank"><strong>Discord</strong></a>
+<a href="https://discord.gg/coppel" target="_blank"><strong>Discord</strong></a>
 </td>
 <td align="center">
-<a href="https://www.reddit.com/r/genius/" target="_blank"><strong>r/genius</strong></a>
+<a href="https://www.reddit.com/r/coppel/" target="_blank"><strong>r/coppel</strong></a>
 </td>
 <td align="center">
-<a href="https://github.com/genius/genius/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Feature Requests</strong></a>
+<a href="https://github.com/coppeltech/coppel-ai-assistant/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Solicitudes de Funcionalidades</strong></a>
 </td>
 <td align="center">
-<a href="https://docs.genius.bot/getting-started/for-new-coders" target="_blank"><strong>Getting Started</strong></a>
+<a href="https://docs.coppel.com/getting-started/for-new-coders" target="_blank"><strong>Comenzar</strong></a>
 </td>
 </tbody>
 </table>
 </div>
 
-Meet Genius, an AI assistant that can use your **CLI** a**N**d **E**ditor.
+Conoce Coppel AI Assistant, un asistente de IA que puede usar tu **CLI** y **Editor**.
 
-Thanks to [Claude Sonnet's agentic coding capabilities](https://www.anthropic.com/claude/sonnet), Genius can handle complex software development tasks step-by-step. With tools that let him create & edit files, explore large projects, use the browser, and execute terminal commands (after you grant permission), he can assist you in ways that go beyond code completion or tech support. Genius can even use the Model Context Protocol (MCP) to create new tools and extend his own capabilities. While autonomous AI scripts traditionally run in sandboxed environments, this extension provides a human-in-the-loop GUI to approve every file change and terminal command, providing a safe and accessible way to explore the potential of agentic AI.
+Gracias a las [capacidades de codificación agéntica de Claude Sonnet](https://www.anthropic.com/claude/sonnet), Coppel AI Assistant puede manejar tareas complejas de desarrollo de software paso a paso. Con herramientas que le permiten crear y editar archivos, explorar proyectos grandes, usar el navegador y ejecutar comandos de terminal (después de que otorgues permiso), puede asistirte de maneras que van más allá de la completación de código o soporte técnico. Coppel AI Assistant incluso puede usar el Protocolo de Contexto de Modelo (MCP) para crear nuevas herramientas y extender sus propias capacidades. Mientras que los scripts de IA autónomos tradicionalmente se ejecutan en entornos aislados, esta extensión proporciona una GUI humano-en-el-bucle para aprobar cada cambio de archivo y comando de terminal, proporcionando una forma segura y accesible de explorar el potencial de la IA agéntica.
 
-1. Enter your task and add images to convert mockups into functional apps or fix bugs with screenshots.
-2. Genius starts by analyzing your file structure & source code ASTs, running regex searches, and reading relevant files to get up to speed in existing projects. By carefully managing what information is added to context, Genius can provide valuable assistance even for large, complex projects without overwhelming the context window.
-3. Once Genius has the information he needs, he can:
-    - Create and edit files + monitor linter/compiler errors along the way, letting him proactively fix issues like missing imports and syntax errors on his own.
-    - Execute commands directly in your terminal and monitor their output as he works, letting him e.g., react to dev server issues after editing a file.
-    - For web development tasks, Genius can launch the site in a headless browser, click, type, scroll, and capture screenshots + console logs, allowing him to fix runtime errors and visual bugs.
-4. When a task is completed, Genius will present the result to you with a terminal command like `open -a "Google Chrome" index.html`, which you run with a click of a button.
+1. Ingresa tu tarea y agrega imágenes para convertir mockups en aplicaciones funcionales o corregir errores con capturas de pantalla.
+2. Coppel AI Assistant comienza analizando tu estructura de archivos y ASTs de código fuente, ejecutando búsquedas regex y leyendo archivos relevantes para ponerse al día en proyectos existentes. Al gestionar cuidadosamente qué información se agrega al contexto, Coppel AI Assistant puede proporcionar asistencia valiosa incluso para proyectos grandes y complejos sin abrumar la ventana de contexto.
+3. Una vez que Coppel AI Assistant tiene la información que necesita, puede:
+    - Crear y editar archivos + monitorear errores de linter/compilador en el camino, permitiéndole arreglar proactivamente problemas como importaciones faltantes y errores de sintaxis por sí mismo.
+    - Ejecutar comandos directamente en tu terminal y monitorear su salida mientras trabaja, permitiéndole, por ejemplo, reaccionar a problemas del servidor de desarrollo después de editar un archivo.
+    - Para tareas de desarrollo web, Coppel AI Assistant puede lanzar el sitio en un navegador sin cabeza, hacer clic, escribir, desplazarse y capturar capturas de pantalla + logs de consola, permitiéndole arreglar errores de tiempo de ejecución y errores visuales.
+4. Cuando una tarea se completa, Coppel AI Assistant te presentará el resultado con un comando de terminal como `open -a "Google Chrome" index.html`, que ejecutas con un clic de un botón.
 
 > [!TIP]
-> Use the `CMD/CTRL + Shift + P` shortcut to open the command palette and type "Genius: Open In New Tab" to open the extension as a tab in your editor. This lets you use Genius side-by-side with your file explorer, and see how he changes your workspace more clearly.
+> Usa el atajo `CMD/CTRL + Shift + P` para abrir la paleta de comandos y escribe "Coppel AI Assistant: Abrir en Nueva Pestaña" para abrir la extensión como una pestaña en tu editor. Esto te permite usar Coppel AI Assistant lado a lado con tu explorador de archivos, y ver cómo cambia tu espacio de trabajo más claramente.
 
 ---
 
@@ -51,7 +51,7 @@ Thanks to [Claude Sonnet's agentic coding capabilities](https://www.anthropic.co
 
 ### Use any API and Model
 
-Genius supports API providers like OpenRouter, Anthropic, OpenAI, Google Gemini, AWS Bedrock, Azure, GCP Vertex, Cerebras and Groq. You can also configure any OpenAI compatible API, or use a local model through LM Studio/Ollama. If you're using OpenRouter, the extension fetches their latest model list, allowing you to use the newest models as soon as they're available.
+Coppel AI Assistant soporta proveedores de API como OpenRouter, Anthropic, OpenAI, Google Gemini, AWS Bedrock, Azure, GCP Vertex, Cerebras y Groq. También puedes configurar cualquier API compatible con OpenAI, o usar un modelo local a través de LM Studio/Ollama. Si estás usando OpenRouter, la extensión obtiene su lista de modelos más reciente, permitiéndote usar los modelos más nuevos tan pronto como estén disponibles.
 
 The extension also keeps track of total tokens and API usage cost for the entire task loop and individual requests, keeping you informed of spend every step of the way.
 
@@ -63,9 +63,9 @@ The extension also keeps track of total tokens and API usage cost for the entire
 
 ### Run Commands in Terminal
 
-Thanks to the new [shell integration updates in VSCode v1.93](https://code.visualstudio.com/updates/v1_93#_terminal-shell-integration-api), Genius can execute commands directly in your terminal and receive the output. This allows him to perform a wide range of tasks, from installing packages and running build scripts to deploying applications, managing databases, and executing tests, all while adapting to your dev environment & toolchain to get the job done right.
+Gracias a las nuevas [actualizaciones de integración de shell en VSCode v1.93](https://code.visualstudio.com/updates/v1_93#_terminal-shell-integration-api), Coppel AI Assistant puede ejecutar comandos directamente en tu terminal y recibir la salida. Esto le permite realizar una amplia gama de tareas, desde instalar paquetes y ejecutar scripts de construcción hasta desplegar aplicaciones, gestionar bases de datos y ejecutar pruebas, todo mientras se adapta a tu entorno de desarrollo y cadena de herramientas para hacer el trabajo correctamente.
 
-For long running processes like dev servers, use the "Proceed While Running" button to let Genius continue in the task while the command runs in the background. As Genius works he'll be notified of any new terminal output along the way, letting him react to issues that may come up, such as compile-time errors when editing files.
+Para procesos de larga duración como servidores de desarrollo, usa el botón "Proceder Mientras Se Ejecuta" para permitir que Coppel AI Assistant continúe en la tarea mientras el comando se ejecuta en segundo plano. Mientras Coppel AI Assistant trabaja, será notificado de cualquier nueva salida de terminal en el camino, permitiéndole reaccionar a problemas que puedan surgir, como errores de tiempo de compilación al editar archivos.
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -75,9 +75,9 @@ For long running processes like dev servers, use the "Proceed While Running" but
 
 ### Create and Edit Files
 
-Genius can create and edit files directly in your editor, presenting you a diff view of the changes. You can edit or revert Genius's changes directly in the diff view editor, or provide feedback in chat until you're satisfied with the result. Genius also monitors linter/compiler errors (missing imports, syntax errors, etc.) so he can fix issues that come up along the way on his own.
+Coppel AI Assistant puede crear y editar archivos directamente en tu editor, presentándote una vista de diferencias de los cambios. Puedes editar o revertir los cambios de Coppel AI Assistant directamente en el editor de vista de diferencias, o proporcionar retroalimentación en el chat hasta que estés satisfecho con el resultado. Coppel AI Assistant también monitorea errores de linter/compilador (importaciones faltantes, errores de sintaxis, etc.) para que pueda arreglar problemas que surjan en el camino por sí mismo.
 
-All changes made by Genius are recorded in your file's Timeline, providing an easy way to track and revert modifications if needed.
+Todos los cambios realizados por Coppel AI Assistant se registran en la Línea de Tiempo de tu archivo, proporcionando una forma fácil de rastrear y revertir modificaciones si es necesario.
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -87,9 +87,9 @@ All changes made by Genius are recorded in your file's Timeline, providing an ea
 
 ### Use the Browser
 
-With Claude Sonnet's new [Computer Use](https://www.anthropic.com/news/3-5-models-and-computer-use) capability, Genius can launch a browser, click elements, type text, and scroll, capturing screenshots and console logs at each step. This allows for interactive debugging, end-to-end testing, and even general web use! This gives him autonomy to fixing visual bugs and runtime issues without you needing to handhold and copy-pasting error logs yourself.
+Con la nueva capacidad de [Computer Use de Claude Sonnet](https://www.anthropic.com/news/3-5-models-and-computer-use), Coppel AI Assistant puede lanzar un navegador, hacer clic en elementos, escribir texto y desplazarse, capturando capturas de pantalla y logs de consola en cada paso. ¡Esto permite depuración interactiva, pruebas de extremo a extremo e incluso uso web general! Esto le da autonomía para arreglar errores visuales y problemas de tiempo de ejecución sin que necesites guiarlo de la mano y copiar y pegar logs de error tú mismo.
 
-Try asking Genius to "test the app", and watch as he runs a command like `npm run dev`, launches your locally running dev server in a browser, and performs a series of tests to confirm that everything works. [See a demo here.](https://x.com/sdrzn/status/1850880547825823989)
+Intenta pedirle a Coppel AI Assistant que "pruebe la aplicación", y observa cómo ejecuta un comando como `npm run dev`, lanza tu servidor de desarrollo local en un navegador y realiza una serie de pruebas para confirmar que todo funciona. [Ve una demostración aquí.](https://x.com/sdrzn/status/1850880547825823989)
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -99,11 +99,11 @@ Try asking Genius to "test the app", and watch as he runs a command like `npm ru
 
 ### "add a tool that..."
 
-Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol), Genius can extend his capabilities through custom tools. While you can use [community-made servers](https://github.com/modelcontextprotocol/servers), Genius can instead create and install tools tailored to your specific workflow. Just ask Genius to "add a tool" and he will handle everything, from creating a new MCP server to installing it into the extension. These custom tools then become part of Genius's toolkit, ready to use in future tasks.
+Gracias al [Protocolo de Contexto de Modelo](https://github.com/modelcontextprotocol), Coppel AI Assistant puede extender sus capacidades a través de herramientas personalizadas. Mientras puedes usar [servidores hechos por la comunidad](https://github.com/modelcontextprotocol/servers), Coppel AI Assistant puede en su lugar crear e instalar herramientas adaptadas a tu flujo de trabajo específico. Solo pídele a Coppel AI Assistant que "agregue una herramienta" y él manejará todo, desde crear un nuevo servidor MCP hasta instalarlo en la extensión. Estas herramientas personalizadas luego se convierten en parte del conjunto de herramientas de Coppel AI Assistant, listas para usar en tareas futuras.
 
--   "add a tool that fetches Jira tickets": Retrieve ticket ACs and put Genius to work
--   "add a tool that manages AWS EC2s": Check server metrics and scale instances up or down
--   "add a tool that pulls the latest PagerDuty incidents": Fetch details and ask Genius to fix bugs
+-   "agrega una herramienta que obtenga tickets de Jira": Recupera ACs de tickets y pon a Coppel AI Assistant a trabajar
+-   "agrega una herramienta que gestione EC2s de AWS": Verifica métricas del servidor y escala instancias hacia arriba o abajo
+-   "agrega una herramienta que obtenga los últimos incidentes de PagerDuty": Obtén detalles y pide a Coppel AI Assistant que arregle errores
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -113,13 +113,13 @@ Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol),
 
 ### Add Context
 
-**`@url`:** Paste in a URL for the extension to fetch and convert to markdown, useful when you want to give Genius the latest docs
+**`@url`:** Pega una URL para que la extensión la obtenga y convierta a markdown, útil cuando quieres darle a Coppel AI Assistant la documentación más reciente
 
-**`@problems`:** Add workspace errors and warnings ('Problems' panel) for Genius to fix
+**`@problems`:** Agrega errores y advertencias del espacio de trabajo (panel 'Problemas') para que Coppel AI Assistant los arregle
 
-**`@file`:** Adds a file's contents so you don't have to waste API requests approving read file (+ type to search files)
+**`@file`:** Agrega el contenido de un archivo para que no tengas que desperdiciar solicitudes de API aprobando leer archivo (+ escribe para buscar archivos)
 
-**`@folder`:** Adds folder's files all at once to speed up your workflow even more
+**`@folder`:** Agrega todos los archivos de una carpeta de una vez para acelerar tu flujo de trabajo aún más
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -129,9 +129,9 @@ Thanks to the [Model Context Protocol](https://github.com/modelcontextprotocol),
 
 ### Checkpoints: Compare and Restore
 
-As Genius works through a task, the extension takes a snapshot of your workspace at each step. You can use the 'Compare' button to see a diff between the snapshot and your current workspace, and the 'Restore' button to roll back to that point.
+Mientras Coppel AI Assistant trabaja en una tarea, la extensión toma una instantánea de tu espacio de trabajo en cada paso. Puedes usar el botón 'Comparar' para ver una diferencia entre la instantánea y tu espacio de trabajo actual, y el botón 'Restaurar' para retroceder a ese punto.
 
-For example, when working with a local web server, you can use 'Restore Workspace Only' to quickly test different versions of your app, then use 'Restore Task and Workspace' when you find the version you want to continue building from. This lets you safely explore different approaches without losing progress.
+Por ejemplo, cuando trabajas con un servidor web local, puedes usar 'Restaurar Solo Espacio de Trabajo' para probar rápidamente diferentes versiones de tu aplicación, luego usar 'Restaurar Tarea y Espacio de Trabajo' cuando encuentres la versión desde la cual quieres continuar construyendo. Esto te permite explorar de forma segura diferentes enfoques sin perder progreso.
 
 <!-- Transparent pixel to create line break after floating image -->
 
@@ -139,8 +139,8 @@ For example, when working with a local web server, you can use 'Restore Workspac
 
 ## Contributing
 
-To contribute to the project, start with our [Contributing Guide](CONTRIBUTING.md) to learn the basics. You can also join our [Discord](https://discord.gg/genius) to chat with other contributors in the `#contributors` channel. If you're looking for full-time work, check out our open positions on our [careers page](https://genius.bot/join-us)!
+Para contribuir al proyecto, comienza con nuestra [Guía de Contribución](CONTRIBUTING.md) para aprender lo básico. También puedes unirte a nuestro [Discord](https://discord.gg/coppel) para chatear con otros contribuidores en el canal `#contributors`. ¡Si estás buscando trabajo de tiempo completo, revisa nuestras posiciones abiertas en nuestra [página de carreras](https://coppel.com/careers)!
 
-## License
+## Licencia
 
-[Apache 2.0 © 2025 Genius Bot Inc.](./LICENSE)
+[Apache 2.0 © 2025 Coppel Tech](./LICENSE)
