@@ -1,14 +1,14 @@
 import { VSCodeButton, VSCodeLink } from "@vscode/webview-ui-toolkit/react"
 import { handleSignIn } from "@/context/ClineAuthContext"
 import { useExtensionState } from "@/context/ExtensionStateContext"
-import ClineLogoVariable from "../../assets/ClineLogoVariable"
+import CoopelLogo from "../../assets/CoopelLogo"
 
 export const AccountWelcomeView = () => {
 	const { environment } = useExtensionState()
 
 	return (
 		<div className="flex flex-col items-center pr-3">
-			<ClineLogoVariable className="size-16 mb-4" environment={environment} />
+			<CoopelLogo className="h-16 mb-4" />
 
 			<p>
 				Sign up for an account to get access to the latest models, billing dashboard to view usage and credits, and more
@@ -16,7 +16,7 @@ export const AccountWelcomeView = () => {
 			</p>
 
 			<VSCodeButton className="w-full mb-4" onClick={() => handleSignIn()}>
-				Sign up with Cline
+				Sign up with Genius Code Assistant
 			</VSCodeButton>
 
 			<p className="text-[var(--vscode-descriptionForeground)] text-xs text-center m-0">

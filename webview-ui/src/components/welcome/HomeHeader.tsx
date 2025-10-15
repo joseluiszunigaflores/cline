@@ -1,5 +1,5 @@
 import { EmptyRequest } from "@shared/proto/cline/common"
-import ClineLogoVariable from "@/assets/ClineLogoVariable"
+import CoopelLogo from "@/assets/CoopelLogo"
 import HeroTooltip from "@/components/common/HeroTooltip"
 import { useExtensionState } from "@/context/ExtensionStateContext"
 import { UiServiceClient } from "@/services/grpc-client"
@@ -22,7 +22,7 @@ const HomeHeader = ({ shouldShowQuickWins = false }: HomeHeaderProps) => {
 	return (
 		<div className="flex flex-col items-center mb-5">
 			<div className="my-5">
-				<ClineLogoVariable className="size-16" environment={environment} />
+				<CoopelLogo className="h-16" />
 			</div>
 			<div className="text-center flex items-center justify-center">
 				<h2 className="m-0 text-lg">{"What can I do for you?"}</h2>
