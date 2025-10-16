@@ -1,96 +1,92 @@
-# Contributing to Cline
+# Contribuyendo a Cline
 
-We're thrilled you're interested in contributing to Cline. Whether you're fixing a bug, adding a feature, or improving our docs, every contribution makes Cline smarter! To keep our community vibrant and welcoming, all members must adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+Estamos emocionados de que estés interesado en contribuir a Cline. Ya sea que estés corrigiendo un error, agregando una funcionalidad o mejorando nuestra documentación, ¡cada contribución hace que Cline sea más inteligente! Para mantener nuestra comunidad vibrante y acogedora, todos los miembros deben adherirse a nuestro [Código de Conducta](CODE_OF_CONDUCT.md).
 
-## Reporting Bugs or Issues
+## Reportando Errores o Problemas
 
-Bug reports help make Cline better for everyone! Before creating a new issue, please [search existing ones](https://github.com/cline/cline/issues) to avoid duplicates. When you're ready to report a bug, head over to our [issues page](https://github.com/cline/cline/issues/new/choose) where you'll find a template to help you with filling out the relevant information.
+¡Los reportes de errores ayudan a hacer que Cline sea mejor para todos! Antes de crear un nuevo problema, por favor [busca en los existentes](https://github.com/cline/cline/issues) para evitar duplicados. Cuando estés listo para reportar un error, dirígete a nuestra [página de problemas](https://github.com/cline/cline/issues/new/choose) donde encontrarás una plantilla para ayudarte a completar la información relevante.
 
 <blockquote class='warning-note'>
-     🔐 <b>Important:</b> If you discover a security vulnerability, please use the <a href="https://github.com/cline/cline/security/advisories/new">Github security tool to report it privately</a>.
+     🔐 <b>Importante:</b> Si descubres una vulnerabilidad de seguridad, por favor usa la <a href="https://github.com/cline/cline/security/advisories/new">herramienta de seguridad de Github para reportarla de forma privada</a>.
 </blockquote>
 
+## Antes de Contribuir
 
-## Before Contributing
+Todas las contribuciones deben comenzar con un Issue de GitHub, a menos que el cambio sea para correcciones de errores pequeños, correcciones de errores tipográficos, mejoras menores de redacción, o correcciones simples de tipos que no cambien la funcionalidad.
 
-All contributions must begin with a GitHub Issue, unless the change is for small bug fixes, typo corrections, minor wording improvements, or simple type fixes that don't change functionality.
-**For features and contributions**:
-- First check the [Feature Requests discussions board](https://github.com/cline/cline/discussions/categories/feature-requests) for similar ideas
-- If your idea is new, create a new feature request  
-- Wait for approval from core maintainers before starting implementation
-- Once approved, feel free to begin working on a PR with the help of our community!
+**Para funcionalidades y contribuciones**:
+- Primero revisa el [tablero de discusiones de Solicitudes de Funcionalidades](https://github.com/cline/cline/discussions/categories/feature-requests) para ideas similares
+- Si tu idea es nueva, crea una nueva solicitud de funcionalidad
+- Espera la aprobación de los mantenedores principales antes de comenzar la implementación
+- Una vez aprobada, ¡siéntete libre de comenzar a trabajar en un PR con la ayuda de nuestra comunidad!
 
-**PRs without approved issues may be closed.**
+**Los PRs sin issues aprobados pueden ser cerrados.**
 
+## Decidiendo en Qué Trabajar
 
-## Deciding What to Work On
+¿Buscas una buena primera contribución? Revisa los issues etiquetados como ["good first issue"](https://github.com/cline/cline/labels/good%20first%20issue) o ["help wanted"](https://github.com/cline/cline/labels/help%20wanted). ¡Estos están específicamente curados para nuevos contribuidores y áreas donde nos encantaría recibir ayuda!
 
-Looking for a good first contribution? Check out issues labeled ["good first issue"](https://github.com/cline/cline/labels/good%20first%20issue) or ["help wanted"](https://github.com/cline/cline/labels/help%20wanted). These are specifically curated for new contributors and areas where we'd love some help!
+También damos la bienvenida a contribuciones a nuestra [documentación](https://github.com/cline/cline/tree/main/docs)! Ya sea corrigiendo errores tipográficos, mejorando guías existentes, o creando nuevo contenido educativo - nos encantaría construir un repositorio de recursos impulsado por la comunidad que ayude a todos a sacar el máximo provecho de Cline. Puedes comenzar explorando `/docs` y buscando áreas que necesiten mejoras.
 
-We also welcome contributions to our [documentation](https://github.com/cline/cline/tree/main/docs)! Whether it's fixing typos, improving existing guides, or creating new educational content - we'd love to build a community-driven repository of resources that helps everyone get the most out of Cline. You can start by diving into `/docs` and looking for areas that need improvement.
+## Configuración de Desarrollo
 
-## Development Setup
+### Instrucciones de Desarrollo Local
 
-
-### Local Development Instructions
-
-1. Clone the repository _(Requires [git-lfs](https://git-lfs.com/))_:
+1. Clona el repositorio _(Requiere [git-lfs](https://git-lfs.com/))_:
     ```bash
     git clone https://github.com/cline/cline.git
     ```
-2. Open the project in VSCode:
+2. Abre el proyecto en VSCode:
     ```bash
     code cline
     ```
-3. Install the necessary dependencies for the extension and webview-gui:
+3. Instala las dependencias necesarias para la extensión y webview-gui:
     ```bash
     npm run install:all
     ```
-4. Launch by pressing `F5` (or `Run`->`Start Debugging`) to open a new VSCode window with the extension loaded. (You may need to install the [esbuild problem matchers extension](https://marketplace.visualstudio.com/items?itemName=connor4312.esbuild-problem-matchers) if you run into issues building the project.)
+4. Ejecuta presionando `F5` (o `Run`->`Start Debugging`) para abrir una nueva ventana de VSCode con la extensión cargada. (Es posible que necesites instalar la [extensión de esbuild problem matchers](https://marketplace.visualstudio.com/items?itemName=connor4312.esbuild-problem-matchers) si tienes problemas construyendo el proyecto.)
 
+### Creando un Pull Request
 
-
-
-### Creating a Pull Request
-
-1. Before creating a PR, generate a changeset entry:
+1. Antes de crear un PR, genera una entrada de changeset:
     ```bash
     npm run changeset
     ```
-   This will prompt you for:
-   - Type of change (major, minor, patch)
-     - `major` → breaking changes (1.0.0 → 2.0.0)
-     - `minor` → new features (1.0.0 → 1.1.0)
-     - `patch` → bug fixes (1.0.0 → 1.0.1)
-   - Description of your changes
+   Esto te pedirá:
+   - Tipo de cambio (major, minor, patch)
+     - `major` → cambios que rompen compatibilidad (1.0.0 → 2.0.0)
+     - `minor` → nuevas funcionalidades (1.0.0 → 1.1.0)
+     - `patch` → correcciones de errores (1.0.0 → 1.0.1)
+   - Descripción de tus cambios
 
-2. Commit your changes and the generated `.changeset` file
+2. Haz commit de tus cambios y el archivo `.changeset` generado
 
-3. Push your branch and create a PR on GitHub. Our CI will:
-   - Run tests and checks
-   - Changesetbot will create a comment showing the version impact
-   - When merged to main, changesetbot will create a Version Packages PR
-   - When the Version Packages PR is merged, a new release will be published
-4. Testing
-    - Run `npm run test` to run tests locally. 
-    - Before submitting PR, run `npm run format:fix` to format your code
+3. Sube tu rama y crea un PR en GitHub. Nuestro CI:
+   - Ejecutará pruebas y verificaciones
+   - Changesetbot creará un comentario mostrando el impacto de la versión
+   - Cuando se fusione a main, changesetbot creará un PR de Version Packages
+   - Cuando el PR de Version Packages se fusione, se publicará una nueva versión
 
-### Extension
+4. Pruebas
+    - Ejecuta `npm run test` para ejecutar pruebas localmente
+    - Antes de enviar el PR, ejecuta `npm run format:fix` para formatear tu código
 
-1. **VS Code Extensions**
+### Extensión
 
-    - When opening the project, VS Code will prompt you to install recommended extensions
-    - These extensions are required for development - please accept all installation prompts
-    - If you dismissed the prompts, you can install them manually from the Extensions panel
+1. **Extensiones de VS Code**
 
-2. **Local Development**
-    - Run `npm run install:all` to install dependencies
-    - Run `npm run test` to run tests locally
-    - Run → Start Debugging or `>Debug: Select and Start Debugging` and wait for a new VS Code instance to open
-    - Before submitting PR, run `npm run format:fix` to format your code
+    - Al abrir el proyecto, VS Code te pedirá que instales las extensiones recomendadas
+    - Estas extensiones son requeridas para el desarrollo - por favor acepta todas las solicitudes de instalación
+    - Si descartaste las solicitudes, puedes instalarlas manualmente desde el panel de Extensiones
 
-3. **Linux-specific Setup**
-    VS Code extension tests on Linux require the following system libraries:
+2. **Desarrollo Local**
+    - Ejecuta `npm run install:all` para instalar dependencias
+    - Ejecuta `npm run test` para ejecutar pruebas localmente
+    - Run → Start Debugging o `>Debug: Select and Start Debugging` y espera a que se abra una nueva instancia de VS Code
+    - Antes de enviar el PR, ejecuta `npm run format:fix` para formatear tu código
+
+3. **Configuración Específica para Linux**
+    Las pruebas de extensión de VS Code en Linux requieren las siguientes librerías del sistema:
 
     - `dbus`
     - `libasound2`
@@ -108,9 +104,9 @@ We also welcome contributions to our [documentation](https://github.com/cline/cl
     - `libxrandr2`
     - `xvfb`
 
-    These libraries provide necessary GUI components and system services for the test environment.
+    Estas librerías proporcionan componentes GUI necesarios y servicios del sistema para el entorno de pruebas.
 
-    For example, on Debian-based distributions (e.g., Ubuntu), you can install these libraries using apt:
+    Por ejemplo, en distribuciones basadas en Debian (ej., Ubuntu), puedes instalar estas librerías usando apt:
     ```bash
     sudo apt update
     sudo apt install -y \
@@ -131,92 +127,92 @@ We also welcome contributions to our [documentation](https://github.com/cline/cl
       xvfb
     ```
 
-## Writing and Submitting Code
+## Escribiendo y Enviando Código
 
-Anyone can contribute code to Cline, but we ask that you follow these guidelines to ensure your contributions can be smoothly integrated:
+Cualquiera puede contribuir código a Cline, pero pedimos que sigas estas pautas para asegurar que tus contribuciones puedan ser integradas sin problemas:
 
-1. **Keep Pull Requests Focused**
+1. **Mantén los Pull Requests Enfocados**
 
-    - Limit PRs to a single feature or bug fix
-    - Split larger changes into smaller, related PRs
-    - Break changes into logical commits that can be reviewed independently
+    - Limita los PRs a una sola funcionalidad o corrección de error
+    - Divide cambios grandes en PRs más pequeños y relacionados
+    - Separa los cambios en commits lógicos que puedan ser revisados independientemente
 
-2. **Code Quality**
+2. **Calidad del Código**
 
-    - Run `npm run lint` to check code style
-    - Run `npm run format` to automatically format code
-    - All PRs must pass CI checks which include both linting and formatting
-    - Address any warnings or errors from linter before submitting
-    - Follow TypeScript best practices and maintain type safety
+    - Ejecuta `npm run lint` para verificar el estilo del código
+    - Ejecuta `npm run format` para formatear automáticamente el código
+    - Todos los PRs deben pasar las verificaciones de CI que incluyen tanto linting como formateo
+    - Aborda cualquier advertencia o error del linter antes de enviar
+    - Sigue las mejores prácticas de TypeScript y mantén la seguridad de tipos
 
-3. **Testing**
+3. **Pruebas**
 
-    - Add tests for new features
-    - Run `npm test` to ensure all tests pass
-    - Update existing tests if your changes affect them
-    - Include both unit tests and integration tests where appropriate
+    - Agrega pruebas para nuevas funcionalidades
+    - Ejecuta `npm test` para asegurar que todas las pruebas pasen
+    - Actualiza las pruebas existentes si tus cambios las afectan
+    - Incluye tanto pruebas unitarias como de integración donde sea apropiado
 
-    **End-to-End (E2E) Testing**
+    **Pruebas de Extremo a Extremo (E2E)**
     
-    Cline includes comprehensive E2E tests using Playwright that simulate real user interactions with the extension in VS Code:
+    Cline incluye pruebas E2E comprensivas usando Playwright que simulan interacciones reales del usuario con la extensión en VS Code:
     
-    - **Running E2E tests:**
+    - **Ejecutando pruebas E2E:**
       ```bash
-      npm run test:e2e        # Build and run all E2E tests
-      npm run e2e             # Run tests without rebuilding
-      npm run test:e2e -- --debug  # Run with interactive debugger
+      npm run test:e2e        # Construir y ejecutar todas las pruebas E2E
+      npm run e2e             # Ejecutar pruebas sin reconstruir
+      npm run test:e2e -- --debug  # Ejecutar con depurador interactivo
       ```
     
-    - **Writing E2E tests:**
-      - Tests are located in `src/test/e2e/`
-      - Use the `e2e` fixture for single-root workspace tests
-      - Use `e2eMultiRoot` fixture for multi-root workspace tests
-      - Follow existing patterns in `auth.test.ts`, `chat.test.ts`, `diff.test.ts`, and `editor.test.ts`
-      - See `src/test/e2e/README.md` for detailed documentation
+    - **Escribiendo pruebas E2E:**
+      - Las pruebas están ubicadas en `src/test/e2e/`
+      - Usa el fixture `e2e` para pruebas de workspace de raíz única
+      - Usa el fixture `e2eMultiRoot` para pruebas de workspace multi-raíz
+      - Sigue los patrones existentes en `auth.test.ts`, `chat.test.ts`, `diff.test.ts`, y `editor.test.ts`
+      - Ve `src/test/e2e/README.md` para documentación detallada
     
-    - **Debug mode features:**
-      - Interactive Playwright Inspector for step-by-step debugging
-      - Record new interactions and generate test code automatically
-      - Visual VS Code instance for manual testing
-      - Element inspection and selector validation
+    - **Características del modo debug:**
+      - Inspector interactivo de Playwright para depuración paso a paso
+      - Graba nuevas interacciones y genera código de prueba automáticamente
+      - Instancia visual de VS Code para pruebas manuales
+      - Inspección de elementos y validación de selectores
     
-    - **Test environment:**
-      - Automated VS Code setup with Cline extension loaded
-      - Mock API server for backend testing
-      - Temporary workspaces with test fixtures
-      - Video recording for failed tests
+    - **Entorno de pruebas:**
+      - Configuración automatizada de VS Code con extensión Cline cargada
+      - Servidor API simulado para pruebas de backend
+      - Workspaces temporales con fixtures de prueba
+      - Grabación de video para pruebas fallidas
 
-4. **Version Management with Changesets**
+4. **Gestión de Versiones con Changesets**
 
-    - Create a changeset for any user-facing changes using `npm run changeset`
-    - Choose the appropriate version bump:
-        - `major` for breaking changes (1.0.0 → 2.0.0)
-        - `minor` for new features (1.0.0 → 1.1.0)
-        - `patch` for bug fixes (1.0.0 → 1.0.1)
-    - Write clear, descriptive changeset messages that explain the impact
-    - Documentation-only changes don't require changesets
+    - Crea un changeset para cualquier cambio visible al usuario usando `npm run changeset`
+    - Elige el incremento de versión apropiado:
+        - `major` para cambios que rompen compatibilidad (1.0.0 → 2.0.0)
+        - `minor` para nuevas funcionalidades (1.0.0 → 1.1.0)
+        - `patch` para correcciones de errores (1.0.0 → 1.0.1)
+    - Escribe mensajes de changeset claros y descriptivos que expliquen el impacto
+    - Los cambios solo de documentación no requieren changesets
 
-5. **Commit Guidelines**
+5. **Pautas de Commit**
 
-    - Write clear, descriptive commit messages
-    - Use conventional commit format (e.g., "feat:", "fix:", "docs:")
-    - Reference relevant issues in commits using #issue-number
+    - Escribe mensajes de commit claros y descriptivos
+    - Usa formato de commit convencional (ej., "feat:", "fix:", "docs:")
+    - Referencia issues relevantes en commits usando #numero-issue
 
-6. **Before Submitting**
+6. **Antes de Enviar**
 
-    - Rebase your branch on the latest main
-    - Ensure your branch builds successfully
-    - Double-check all tests are passing
-    - Review your changes for any debugging code or console logs
+    - Rebase tu rama en el main más reciente
+    - Asegúrate de que tu rama se construya exitosamente
+    - Verifica que todas las pruebas estén pasando
+    - Revisa tus cambios para cualquier código de depuración o console logs
 
-7. **Pull Request Description**
-    - Clearly describe what your changes do
-    - Include steps to test the changes
-    - List any breaking changes
-    - Add screenshots for UI changes
+7. **Descripción del Pull Request**
+    - Describe claramente qué hacen tus cambios
+    - Incluye pasos para probar los cambios
+    - Lista cualquier cambio que rompa compatibilidad
+    - Agrega capturas de pantalla para cambios de UI
 
-## Contribution Agreement
+## Acuerdo de Contribución
 
-By submitting a pull request, you agree that your contributions will be licensed under the same license as the project ([Apache 2.0](LICENSE)).
+Al enviar un pull request, aceptas que tus contribuciones serán licenciadas bajo la misma licencia que el proyecto ([Apache 2.0](LICENSE)).
 
-Remember: Contributing to Cline isn't just about writing code - it's about being part of a community that's shaping the future of AI-assisted development. Let's build something amazing together! 🚀
+Recuerda: Contribuir a Cline no se trata solo de escribir código - se trata de ser parte de una comunidad que está dando forma al futuro del desarrollo asistido por IA. ¡Construyamos algo increíble juntos! 🚀

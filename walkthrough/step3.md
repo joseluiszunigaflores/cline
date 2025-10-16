@@ -1,7 +1,7 @@
-# Always Use the Best Models
+# Siempre Usa los Mejores Modelos
 
-**Connect your keys for Anthropic (Claude), Google (Gemini), OpenAI (GPT), and other leading LLMs.**
+**Conecta tus claves para Anthropic (Claude), Google (Gemini), OpenAI (GPT), y otros LLMs líderes.**
 
-Cline puts you at the forefront of AI. Bring your own API keys for leading models like Anthropic (Claude), Google (Gemini), and OpenAI (GPT). Always leverage the most powerful State-of-the-Art (SOTA) capabilities, ensuring you control both cost and cutting-edge performance.
+Coppel AI Assistant te coloca a la vanguardia de la IA. Trae tus propias claves API para modelos líderes como Anthropic (Claude), Google (Gemini), y OpenAI (GPT). Siempre aprovecha las capacidades más poderosas del Estado del Arte (SOTA), asegurando que controles tanto el costo como el rendimiento de vanguardia.
 
-![Cline Models Demo](https://storage.googleapis.com/cline_public_images/docs/assets/clines-models-hifi-3_compress.webp)
+![Demostración de Modelos de Coppel AI Assistant](https://storage.googleapis.com/cline_public_images/docs/assets/clines-models-hifi-3_compress.webp)

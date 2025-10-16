@@ -1,7 +1,7 @@
-# Beyond Autocomplete: True Agentic Planning
+# Más Allá del Autocompletado: Verdadera Planificación Agéntica
 
-**Cline analyzes your request, explores your code, and presents a clear plan.**
+**Coppel AI Assistant analiza tu solicitud, explora tu código y presenta un plan claro.**
 
-Watch Cline break down complex tasks, ask clarifying questions, and outline its approach. Understand the 'why' before any code is written, ensuring changes align with your architecture and intent.
+Observa cómo Coppel AI Assistant desglosa tareas complejas, hace preguntas aclaratorias y describe su enfoque. Comprende el 'por qué' antes de que se escriba cualquier código, asegurando que los cambios se alineen con tu arquitectura e intención.
 
-![Cline planning demonstration](https://storage.googleapis.com/cline_public_images/docs/assets/cline-plan-hifi-1_compress.webp)
+![Demostración de planificación de Coppel AI Assistant](https://storage.googleapis.com/cline_public_images/docs/assets/cline-plan-hifi-1_compress.webp)
