@@ -2,7 +2,7 @@
 	"name": "coppel-ai-assistant",
 	"displayName": "Coppel AI Assistant",
 	"description": "Asistente de IA autónomo para desarrollo de código, capaz de crear/editar archivos, ejecutar comandos, usar el navegador y más con tu permiso en cada paso.",
-	"version": "3.34.1",
+	"version": "3.34.4",
 	"icon": "assets/icons/icon.png",
 	"engines": {
 		"vscode": "^1.84.0"
