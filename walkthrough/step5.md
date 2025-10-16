@@ -1,7 +1,7 @@
-# No Black Box: Full Visibility & Control
+# Sin Caja Negra: Visibilidad y Control Completos
 
-**Cline operates with complete transparency, showing you every file read and every proposed diff.**
+**Coppel AI Assistant opera con transparencia completa, mostrándote cada archivo leído y cada diferencia propuesta.**
 
-Understand exactly what Cline is doing and why—no obfuscation. Review all actions and approve changes before they're made. Cline uses checkpoints, allowing you to easily revert if needed, maintaining full control over your codebase. With BYO-key, you also have clear cost transparency.
+Comprende exactamente qué está haciendo Coppel AI Assistant y por qué—sin ofuscación. Revisa todas las acciones y aprueba los cambios antes de que se realicen. Coppel AI Assistant usa puntos de control, permitiéndote revertir fácilmente si es necesario, manteniendo control completo sobre tu código base. Con claves propias (BYO-key), también tienes transparencia clara de costos.
 
-![Cline Transparency Demo](https://storage.googleapis.com/cline_public_images/docs/assets/clines-transparency-hifi-5_compress.webp)
+![Demostración de Transparencia de Coppel AI Assistant](https://storage.googleapis.com/cline_public_images/docs/assets/clines-transparency-hifi-5_compress.webp)

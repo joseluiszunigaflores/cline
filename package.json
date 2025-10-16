@@ -2,7 +2,7 @@
 	"name": "coppel-ai-assistant",
 	"displayName": "Coppel AI Assistant",
 	"description": "Asistente de IA autónomo para desarrollo de código, capaz de crear/editar archivos, ejecutar comandos, usar el navegador y más con tu permiso en cada paso.",
-	"version": "3.34.2",
+	"version": "3.35.4",
 	"icon": "assets/icons/icon.png",
 	"engines": {
 		"vscode": "^1.84.0"
@@ -11,7 +11,7 @@
 		"name": "Coppel Tech"
 	},
 	"license": "Apache-2.0",
-	"publisher": "GENiusCodeAssistant",
+	"publisher": "coppeltech",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/coppeltech/coppel-ai-assistant"

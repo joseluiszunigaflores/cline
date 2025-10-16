@@ -1,7 +1,7 @@
-# Deep Codebase Intelligence
+# Inteligencia Profunda del Código Base
 
-**Cline starts with broad context and explores deeply where needed.**
+**Coppel AI Assistant comienza con un contexto amplio y explora profundamente donde es necesario.**
 
-Cline is designed with inherent codebase intelligence. It doesn't operate in a vacuum, but starts with a structural understanding of your project. Before making changes, it performs targeted agentic exploration to gain any additional specific context required, ensuring its actions are always well-informed and aligned with your architecture.
+Coppel AI Assistant está diseñado con inteligencia inherente del código base. No opera en el vacío, sino que comienza con una comprensión estructural de tu proyecto. Antes de hacer cambios, realiza exploración agéntica dirigida para obtener cualquier contexto específico adicional requerido, asegurando que sus acciones siempre estén bien informadas y alineadas con tu arquitectura.
 
-![Cline Deep Codebase Intelligence Demo](https://storage.googleapis.com/cline_public_images/docs/assets/cline-reading-codebase-hifi-2_compress.webp)
+![Demostración de Inteligencia Profunda del Código Base de Coppel AI Assistant](https://storage.googleapis.com/cline_public_images/docs/assets/cline-reading-codebase-hifi-2_compress.webp)
