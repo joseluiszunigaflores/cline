@@ -4,6 +4,7 @@ import { CustomPostHogProvider } from "./CustomPostHogProvider"
 import { ClineAuthProvider } from "./context/ClineAuthContext"
 import { ExtensionStateContextProvider } from "./context/ExtensionStateContext"
 import { PlatformProvider } from "./context/PlatformContext"
+import "./i18n" // Inicializar i18n
 
 export function Providers({ children }: { children: ReactNode }) {
 	return (

@@ -1,0 +1,34 @@
+{
+	"welcome": {
+		"title": "Hi, I'm Genius Code Assistant",
+		"description": "I can do all kinds of tasks thanks to breakthroughs in Claude 4 Sonnet's agentic coding capabilities and access to tools that let me create & edit files, explore complex projects, use a browser, and execute terminal commands (with your permission, of course). I can even use MCP to create new tools and extend my own capabilities.",
+		"signupText": "Sign up for an account to get started for free, or use an API key that provides access to models like Claude Sonnet.",
+		"loginButton": "Login"
+	},
+	"home": {
+		"whatCanIDo": "What can I do for you?",
+		"tooltip": "I can develop software step-by-step by editing files, exploring projects, running commands, and using browsers. I can even extend my capabilities with MCP tools to assist beyond basic code completion.",
+		"takeATour": "Take a Tour"
+	},
+	"account": {
+		"logout": "Log out",
+		"welcomeDescription": "Sign up for an account to get access to the latest models, billing dashboard to view usage and credits, and more upcoming features.",
+		"signUpButton": "Sign up with Genius Code Assistant",
+		"termsText": "By continuing, you agree to the",
+		"termsOfService": "Terms of Service",
+		"and": "and",
+		"privacyPolicy": "Privacy Policy."
+	},
+	"common": {
+		"loading": "Loading...",
+		"error": "Error",
+		"cancel": "Cancel",
+		"save": "Save",
+		"delete": "Delete",
+		"edit": "Edit",
+		"close": "Close",
+		"ok": "OK",
+		"yes": "Yes",
+		"no": "No"
+	}
+}

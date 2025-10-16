@@ -1,4 +1,5 @@
 import { EmptyRequest } from "@shared/proto/cline/common"
+import { useTranslation } from "react-i18next"
 import CoopelLogo from "@/assets/CoopelLogo"
 import HeroTooltip from "@/components/common/HeroTooltip"
 import { useExtensionState } from "@/context/ExtensionStateContext"
@@ -9,6 +10,7 @@ interface HomeHeaderProps {
 }
 
 const HomeHeader = ({ shouldShowQuickWins = false }: HomeHeaderProps) => {
+	const { t } = useTranslation()
 	const { environment } = useExtensionState()
 
 	const handleTakeATour = async () => {
@@ -25,13 +27,8 @@ const HomeHeader = ({ shouldShowQuickWins = false }: HomeHeaderProps) => {
 				<CoopelLogo className="h-16" />
 			</div>
 			<div className="text-center flex items-center justify-center">
-				<h2 className="m-0 text-lg">{"What can I do for you?"}</h2>
-				<HeroTooltip
-					className="max-w-[300px]"
-					content={
-						"I can develop software step-by-step by editing files, exploring projects, running commands, and using browsers. I can even extend my capabilities with MCP tools to assist beyond basic code completion."
-					}
-					placement="bottom">
+				<h2 className="m-0 text-lg">{t("home.whatCanIDo")}</h2>
+				<HeroTooltip className="max-w-[300px]" content={t("home.tooltip")} placement="bottom">
 					<span className="codicon codicon-info ml-2 cursor-pointer text-link text-sm" />
 				</HeroTooltip>
 			</div>
@@ -41,7 +38,7 @@ const HomeHeader = ({ shouldShowQuickWins = false }: HomeHeaderProps) => {
 						className="flex items-center gap-2 px-4 py-2 rounded-full border border-border-panel bg-white/[0.02] hover:bg-list-background-hover transition-colors duration-150 ease-in-out text-code-foreground text-sm font-medium cursor-pointer"
 						onClick={handleTakeATour}
 						type="button">
-						Take a Tour
+						{t("home.takeATour")}
 						<span className="codicon codicon-play scale-90"></span>
 					</button>
 				</div>

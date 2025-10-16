@@ -1,0 +1,34 @@
+{
+	"welcome": {
+		"title": "Hola, soy Genius Code Assistant",
+		"description": "Puedo realizar todo tipo de tareas gracias a los avances en las capacidades de codificación agéntica de Claude 4 Sonnet y el acceso a herramientas que me permiten crear y editar archivos, explorar proyectos complejos, usar un navegador y ejecutar comandos de terminal (con tu permiso, por supuesto). Incluso puedo usar MCP para crear nuevas herramientas y extender mis propias capacidades.",
+		"signupText": "Regístrate para obtener una cuenta y comenzar gratis, o usa una clave API que proporcione acceso a modelos como Claude Sonnet.",
+		"loginButton": "Iniciar Sesión"
+	},
+	"home": {
+		"whatCanIDo": "¿Qué puedo hacer por ti?",
+		"tooltip": "Puedo desarrollar software paso a paso editando archivos, explorando proyectos, ejecutando comandos y usando navegadores. Incluso puedo extender mis capacidades con herramientas MCP para asistir más allá de la simple completación de código.",
+		"takeATour": "Hacer un Recorrido"
+	},
+	"account": {
+		"logout": "Cerrar Sesión",
+		"welcomeDescription": "Regístrate para obtener una cuenta y acceder a los últimos modelos, panel de facturación para ver el uso y créditos, y más funciones próximas.",
+		"signUpButton": "Registrarse con Genius Code Assistant",
+		"termsText": "Al continuar, aceptas los",
+		"termsOfService": "Términos de Servicio",
+		"and": "y la",
+		"privacyPolicy": "Política de Privacidad."
+	},
+	"common": {
+		"loading": "Cargando...",
+		"error": "Error",
+		"cancel": "Cancelar",
+		"save": "Guardar",
+		"delete": "Eliminar",
+		"edit": "Editar",
+		"close": "Cerrar",
+		"ok": "Aceptar",
+		"yes": "Sí",
+		"no": "No"
+	}
+}
